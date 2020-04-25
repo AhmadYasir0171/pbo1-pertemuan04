@@ -8,11 +8,11 @@ public class Main {
         System.out.println("Isi Gelas Sekarang : " + isiGelas + "ml");
         System.out.println("Isi Gelas Ketika Penuh : " + penuh + "ml");
 
-        do{
+        for (isiGelas = 0 ; isiGelas <= penuh ; isiGelas++){
             isiGelas++;
             System.out.println("Sedang mengisi gelas..");
             System.out.println("Isi Gelas Sekarang : " + isiGelas + "ml");
-        }while(isiGelas != penuh);
+        }
 
         System.out.println("Finale: Isi Gelas Sekarang : " + isiGelas + "ml");
     }

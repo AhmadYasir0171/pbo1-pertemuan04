@@ -2,18 +2,11 @@ package PerulanganDanArray;
 
 public class Main {
     public static void main(String[] args) {
-        int isiGelas = 0;
-        int penuh = 225;
+        int nilaiArr[] ={40,55,63,17,22,68,89,97,89} ;
 
-        System.out.println("Isi Gelas Sekarang : " + isiGelas + "ml");
-        System.out.println("Isi Gelas Ketika Penuh : " + penuh + "ml");
+        System.out.println(nilaiArr.length);
+        System.out.println(nilaiArr[0]);
+        System.out.println(nilaiArr[8]);
 
-        for (isiGelas = 0 ; isiGelas <= penuh ; isiGelas++){
-            isiGelas++;
-            System.out.println("Sedang mengisi gelas..");
-            System.out.println("Isi Gelas Sekarang : " + isiGelas + "ml");
-        }
-
-        System.out.println("Finale: Isi Gelas Sekarang : " + isiGelas + "ml");
     }
 }
